@@ -1,0 +1,90 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(109, 49, 162, 1)
+        Height: =65
+        Size: =21
+        Text: ="Prebuilt Text Models"
+        Width: =640
+        ZIndex: =1
+
+    CommentInput As text:
+        Default: ="Enter Text"
+        Height: =163
+        Size: =21
+        Width: =560
+        X: =36
+        Y: =86
+        ZIndex: =2
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =20
+        Width: =640
+        Y: =267
+        ZIndex: =3
+
+    Label2 As label:
+        BorderThickness: =2
+        Height: =70
+        Size: =21
+        Text: ='Language detection'.Predict(CommentInput.Text)
+        Width: =560
+        X: =36
+        Y: =384
+        ZIndex: =4
+
+    Label3 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =21
+        Text: ="Language"
+        Width: =560
+        X: =36
+        Y: =300
+        ZIndex: =5
+
+    TextInput2 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Sentiment"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =36
+        Y: =493
+        ZIndex: =6
+
+    Label4 As label:
+        BorderThickness: =2
+        Height: =70
+        Size: =21
+        Text: =
+        Width: =560
+        X: =36
+        Y: =585
+        ZIndex: =7
+
+    TextInput3 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Key Phrases"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =713
+        ZIndex: =8
+
+    TextInput4 As text:
+        Default: =
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =36
+        Y: =783
+        ZIndex: =9
+
